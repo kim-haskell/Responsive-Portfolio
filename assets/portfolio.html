@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.0/cerulean/bootstrap.min.css" rel="stylesheet" integrity="sha384-b+jboW/YIpW2ZZYyYdXczKK6igHlnkPNfN9kYAbqYV7rNQ9PKTXlS2D6j1QZIATW" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Istok+Web&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Responsive Portfolio</title>
+</head>
+<body>  
+<div class="container">
+    </div>
+    <div class="col-md-12">
+        <!-- Section 1: Navbar-->
+        <nav class="navbar navbar-expand-lg navbar-blue bg-light">
+            <a class="navbar-brand" href="#">Kim Haskell</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="#about">About <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="#portfolio">Portfolio</a>
+                <a class="nav-item nav-link" href="#/contact.html">Contact</a>
+              </div>
+            </div>
+          </nav>
+          <div class="container">
+            <div class="row">
+            <div class="card-group">
+              <div class="card">
+                <div class="col-md-4">
+                <img src="data:image/png;base64,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" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">LinkedIn</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+              </div>
+              <div class="card">
+                <div class="col-md-4">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">GitHub Page</h5>
+                  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                </div>
+              </div>
+              </div>
+              <div class="card">
+                <div class="col-md-4">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                </div>
+              </div>
+            </div>
+            </div>
+            </div>
+          </div>
+
+       
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+  </html>
