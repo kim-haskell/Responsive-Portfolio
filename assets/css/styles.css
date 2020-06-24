@@ -1,32 +1,29 @@
 * {
+   
     box-sizing: border-box;
-    padding: 100px;
-    margin: 0;
 }
 
 body {
     font-family: 'Anton', sans-serif;
-font-family: 'Istok Web', sans-serif;
+    font-family: 'Istok Web', sans-serif;
 }
-nav {
+
+#navagation {
     padding-bottom: 50px;
     text-align: right;
 
 }
 
 h2 {
-    margin-left: 100px;
+    margin-left: 30px;
     padding-top: 30px;
 }
 
-.card {
-    margin-left: 100px;
-    padding-top: 50px;
 
-}
-
+/* #center-footer {
+    margin: 0 auto;
+} */
 .footer {
-    border: black;
     padding: 100px;
     text-align: center; 
 

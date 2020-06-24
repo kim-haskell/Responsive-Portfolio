@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.0/cerulean/bootstrap.min.css" rel="stylesheet" integrity="sha384-b+jboW/YIpW2ZZYyYdXczKK6igHlnkPNfN9kYAbqYV7rNQ9PKTXlS2D6j1QZIATW" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Istok+Web&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
     <title>Responsive Portfolio</title>
 </head>
 <body>  
@@ -20,9 +20,9 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
               <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="#assets/index.html">About <span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="#assets/portfolio.html">Portfolio</a>
-                <a class="nav-item nav-link" href="#assets/contact.html">Contact</a>
+                <a class="nav-item nav-link active" href="index.html">About <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+                <a class="nav-item nav-link" href="contact.html">Contact</a>
               </div>
           </nav>
     </div>
@@ -31,18 +31,16 @@
       <div class="container">
         <h2>About Me</h2>
   <!--Image and text in about me section-->
-    <div class="card" style="max-width: 540px;">
-        <div class="row no-gutters">
-          <div class="col-md-4">
-            <img src="https://images.unsplash.com/photo-1592840331052-16e15c2c6f95?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80" class="card-img" alt="Two people walking towards a river surrounded by desert mountains">
+    <div class="card" style="max-width: 840px;">
+        <div class="row">
+          <div class="card-body col-md-5">
+            <img src="https://images.unsplash.com/photo-1592840330978-39fa21c474c3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" alt="Person walking towards a river surrounded by desert mountains">
           </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum cum impedit voluptatibus deserunt alias quaerat neque, est ab nihil numquam minima reiciendis quidem voluptatum ipsam libero nostrum voluptas iste. Voluptate!</p>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus cumque dignissimos laboriosam similique reprehenderit sit eos. Asperiores, velit! Dolorum ut quidem quis laudantium nisi ratione? Quo qui placeat aliquam non?</p>
+            <div class="card-body col-md-7">
+              <p class="card-text"> My name is Kim Haskell. I am a marketing and merchandising enthusiast turned web developer. My background is in merchandising, marketing and customer service, so I have an eye for design and attention to detail. My bootcamp coding course will help me grow into a junior developer. </p>
+              <p>Please check out my portfolio to see samples of my work and reach out with any questions. </p>
             </p>
             </div>
-          </div>
         </div>
       </div>
     </div>
@@ -53,7 +51,8 @@
       <div class="row">
       </div>
       <div class="col-md-12">
-        <footer>Made with ❤️️ by Kim Haskell</footer>
+
+        <footer id="center-footer">Made with ❤️️ by Kim Haskell</footer> 
         <p>
             &copy; 2020 Copyright
         </p>
