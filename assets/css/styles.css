@@ -1,28 +1,49 @@
 
 
 main {
-    font-family: 'Istok Web', sans-serif;
-    margin: auto;
-}
+    background-image: url("https://images.unsplash.com/photo-1594319517361-1a1c3b46ad69?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80");
+    background-size: cover;
+    height: 100%;
+  }
 
 
 .navbar-nav {
+    padding-top: 20px;
     text-align: center;
     
 }
-
 h2 {
-    margin-left: 30px;
-    padding-top: 30px;
-    color: lightslategray;
+    text-align: center;
+}
+h4 {
+    padding-top: 20px;
+    color: white;
+
 }
 
+h5 {
+    font-size: 30px;
+    text-emphasis: bold;
+}
 
+.container {
+    padding: 30px;
+}
+
+.card-deck {
+    padding: 20px;
+}
+
+#pages {
+    text-align: center;
+    color: white;
+}
 /* #center-footer {
     margin: 0 auto;
 } */
 .footer {
     padding: 100px;
-    text-align: center; 
+    text-align: center;
+    color: white; 
 
 }
