@@ -1,17 +1,14 @@
-* {
-   
-    box-sizing: border-box;
-}
+
 
 main {
     font-family: 'Istok Web', sans-serif;
+    margin: auto;
 }
 
 
-#navagation {
-    padding-bottom: 50px;
-    text-align: right;
-
+.navbar-nav {
+    text-align: center;
+    
 }
 
 h2 {
