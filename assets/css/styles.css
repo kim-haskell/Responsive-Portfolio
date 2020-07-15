@@ -12,9 +12,12 @@ main {
     text-align: center;
     
 }
-h2 {
-    text-align: center;
+h1 {
+    padding-bottom: 15px;
+    padding-top: auto;
 }
+
+
 h4 {
     padding-top: 20px;
     color: white;
@@ -27,7 +30,14 @@ h5 {
 }
 
 .container {
-    padding: 30px;
+    padding: 15px;
+}
+
+#form-border {
+    border-radius: 15px;
+    border-style: solid;
+    border-color: slategray;
+    margin-top: 15px;
 }
 
 .card-deck {
@@ -46,4 +56,9 @@ h5 {
     text-align: center;
     color: white; 
 
+}
+
+#jumbo {
+    background: none;
+    padding: 15px;
 }
