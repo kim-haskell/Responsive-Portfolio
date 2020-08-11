@@ -16,6 +16,7 @@ main {
 h1 {
     padding-bottom: 15px;
     padding-top: auto;
+    text-align: center;
 }
 
 
@@ -30,10 +31,6 @@ h5 {
     text-emphasis: bold;
 }
 
-.container {
-    padding: 15px;
-}
-
 #form-border {
     border-radius: 15px;
     border-style: solid;
@@ -46,8 +43,13 @@ h5 {
 }
 
 #pages {
-    text-align: center;
-    color: white;
+    text-align: left;
+    padding-left: 15px;
+
+}
+
+#second-row {
+    padding: 20px;
 }
 /* #center-footer {
     margin: 0 auto;
