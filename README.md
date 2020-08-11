@@ -4,7 +4,9 @@ This is a responsive portfolio to highlight information about myself including p
 It includes three pages: an about me page, a portfolio page, and a contact page, all which can be toggled through using the navagation bar.
 
 
-The links on the portfolio page will direct you to my LinkedIn account and my Github page.
+The links on the portfolio page will direct you to my LinkedIn account and my Github page. My email and phone number are also listed on the bottom of the contact page.
 
 https://kim-haskell.github.io/Responsive-Portfolio/
+
+Author: Kim Haskell
 
