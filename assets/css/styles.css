@@ -1,10 +1,16 @@
 
 
-main {
+html {
     background-image: url("https://images.unsplash.com/photo-1594319517361-1a1c3b46ad69?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80");
     background-size: cover;
     height: 100%;
     
+  }
+
+  main {
+    background-image: url("https://images.unsplash.com/photo-1594319517361-1a1c3b46ad69?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80");
+    background-size: cover;
+    height: 100%;
   }
 
 
@@ -36,6 +42,7 @@ h5 {
     border-style: solid;
     border-color: slategray;
     margin-top: 15px;
+    padding: 15px;
 }
 
 .card-deck {
@@ -67,6 +74,12 @@ h5 {
 }
 
 .card-img {
-    border-radius: 50%;
+    border-radius: 25px;
     padding: 20px;
+}
+
+
+.card-img-top {
+    border-radius: 15px;
+    
 }
